@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maison Laurent — Fine Dining Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&family=Dancing+Script:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="progress-bar"></div>
+
+  <!-- ── TOPBAR ── -->
+  <div id="topbar">
+    <div class="container topbar-inner">
+      <span>📍 24 Rue de la Paix, Paris — New York — Tokyo</span>
+      <span class="topbar-divider">|</span>
+      <span>📞 +52 81 3118 5052</span>
+      <span class="topbar-divider">|</span>
+      <span>🕐 Tue–Sun: 12:00 – 14:30 &amp; 18:00 – 23:00</span>
+    </div>
+  </div>
+
+  <!-- ── NAVBAR ── -->
+  <nav id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-script">Maison</span>
+        <span class="logo-serif">LAURENT</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#reserve" class="btn-reserve">Reserve a Table</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-eyebrow fade-in">Est. 1987 · Paris</p>
+      <h1 class="hero-title fade-in">
+        Where Every Meal<br/>Becomes a <em>Memory</em>
+      </h1>
+      <p class="hero-desc fade-in">
+        Award-winning French cuisine crafted with passion, precision,<br/>
+        and the finest seasonal ingredients from around the world.
+      </p>
+      <div class="hero-cta fade-in">
+        <a href="#reserve" class="btn btn-gold">Reserve a Table</a>
+        <a href="#menu" class="btn btn-outline-white">Explore Menu</a>
+      </div>
+      <div class="hero-awards fade-in">
+        <div class="award">⭐⭐⭐ <span>Michelin Stars</span></div>
+        <div class="award-divider">|</div>
+        <div class="award">🏆 <span>Best Restaurant Paris 2023</span></div>
+        <div class="award-divider">|</div>
+        <div class="award">🌿 <span>Green Star · Sustainability</span></div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint">
+      <span>Discover</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images fade-in">
+          <div class="img-main">
+            <svg viewBox="0 0 420 520" fill="none"><rect width="420" height="520" rx="4" fill="#1c1c1c"/><rect x="40" y="40" width="340" height="440" rx="2" fill="#2a2318"/><ellipse cx="210" cy="220" rx="90" ry="90" fill="#3d2e1a"/><circle cx="210" cy="190" r="28" fill="#c9a84c" opacity=".3"/><ellipse cx="210" cy="270" rx="60" ry="35" fill="#c9a84c" opacity=".15"/><rect x="80" y="340" width="260" height="2" fill="#c9a84c" opacity=".2"/><rect x="100" y="360" width="220" height="10" rx="5" fill="#3d2e1a"/><rect x="120" y="378" width="180" height="8" rx="4" fill="#3d2e1a"/><rect x="80" y="400" width="260" height="80" rx="8" fill="#2a2318"/><text x="210" y="447" text-anchor="middle" fill="#c9a84c" font-size="11" font-family="Georgia" opacity=".7">Chef Laurent · Head Kitchen</text></svg>
+            <div class="img-badge">
+              <span class="badge-num">36</span>
+              <span class="badge-txt">Years of<br/>Culinary Art</span>
+            </div>
+          </div>
+          <div class="img-secondary">
+            <svg viewBox="0 0 200 180" fill="none"><rect width="200" height="180" rx="4" fill="#1c1c1c"/><rect x="20" y="20" width="160" height="140" rx="2" fill="#2a2318"/><circle cx="100" cy="80" r="40" fill="#3d2e1a"/><path d="M70 80 Q100 50 130 80 Q100 110 70 80" fill="#c9a84c" opacity=".25"/><circle cx="100" cy="80" r="12" fill="#c9a84c" opacity=".4"/><rect x="40" y="135" width="120" height="6" rx="3" fill="#3d2e1a"/><rect x="60" y="147" width="80" height="4" rx="2" fill="#3d2e1a"/></svg>
+          </div>
+        </div>
+        <div class="about-text fade-in">
+          <p class="section-eyebrow">Our Story</p>
+          <h2 class="section-title-left">A Legacy of <em>Passion</em><br/>& Flavour</h2>
+          <p class="about-quote">"Cooking is not just about nourishment. It is about bringing people together, one extraordinary dish at a time."</p>
+          <p class="about-attr">— Chef Jean-Pierre Laurent, Founder</p>
+          <p>Founded in Paris in 1987 by Chef Jean-Pierre Laurent, Maison Laurent began as a small neighbourhood bistro with a single vision: to elevate everyday ingredients into extraordinary experiences.</p>
+          <p>Today, our three-Michelin-starred restaurant welcomes guests in Paris, New York, and Tokyo — each location carrying the same soul, the same obsession with quality, and the same warm hospitality that made us who we are.</p>
+          <div class="about-stats">
+            <div class="astat"><span class="astat-num counter" data-target="36" data-suffix="">0</span><span class="astat-lbl">Years Open</span></div>
+            <div class="astat"><span class="astat-num counter" data-target="3" data-suffix="⭐">0</span><span class="astat-lbl">Michelin Stars</span></div>
+            <div class="astat"><span class="astat-num counter" data-target="48" data-suffix="">0</span><span class="astat-lbl">Signature Dishes</span></div>
+            <div class="astat"><span class="astat-num counter" data-target="12" data-suffix="K+">0</span><span class="astat-lbl">Guests / Year</span></div>
+          </div>
+          <a href="#reserve" class="btn btn-gold">Book Your Experience</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── MENU ── -->
+  <section id="menu" class="section section-dark">
+    <div class="container">
+      <p class="section-eyebrow center fade-in">Seasonal & Inspired</p>
+      <h2 class="section-title fade-in">Our <em>Menu</em></h2>
+      <p class="section-desc fade-in" style="color:rgba(255,255,255,.6)">
+        Our menu changes with the seasons to celebrate the finest produce available.
+        All dishes are crafted fresh daily in our open kitchen.
+      </p>
+      <div class="menu-tabs fade-in">
+        <button class="mtab active" data-cat="all">All</button>
+        <button class="mtab" data-cat="starter">Starters</button>
+        <button class="mtab" data-cat="main">Mains</button>
+        <button class="mtab" data-cat="dessert">Desserts</button>
+        <button class="mtab" data-cat="drink">Drinks</button>
+      </div>
+      <div class="menu-grid" id="menuGrid">
+
+        <!-- Starters -->
+        <div class="menu-card fade-in" data-cat="starter">
+          <div class="menu-img starter-1">
+            <span class="menu-tag">Starter</span>
+          </div>
+          <div class="menu-body">
+            <div class="menu-top">
+              <h3>Foie Gras Torchon</h3>
+              <span class="menu-price">$38</span>
+            </div>
+            <p>House-cured duck foie gras with Sauternes jelly, toasted brioche, and Périgord truffle shavings.</p>
+            <div class="menu-tags"><span>🌾 Gluten option</span><span>⭐ Chef's pick</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-in" data-cat="starter">
+          <div class="menu-img starter-2">
+            <span class="menu-tag">Starter</span>
+          </div>
+          <div class="menu-body">
+            <div class="menu-top">
+              <h3>Lobster Bisque</h3>
+              <span class="menu-price">$32</span>
+            </div>
+            <p>Velvety Breton lobster bisque with cognac cream, tarragon oil, and a claw garnish.</p>
+            <div class="menu-tags"><span>🦞 Shellfish</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-in" data-cat="starter">
+          <div class="menu-img starter-3">
+            <span class="menu-tag">Starter</span>
+          </div>
+          <div class="menu-body">
+            <div class="menu-top">
+              <h3>Burrata &amp; Heirloom Tomato</h3>
+              <span class="menu-price">$26</span>
+            </div>
+            <p>Pugliese burrata with seasonal heirloom tomatoes, aged balsamic, basil oil, and fleur de sel.</p>
+            <div class="menu-tags"><span>🌿 Vegetarian</span><span>🥛 Contains dairy</span></div>
+          </div>
+        </div>
+
+        <!-- Mains -->
+        <div class="menu-card fade-in" data-cat="main">
+          <div class="menu-img main-1">
+            <span class="menu-tag">Main</span>
+          </div>
+          <div class="menu-body">
+            <div class="menu-top">
+              <h3>Beef Wellington</h3>
+              <span class="menu-price">$78</span>
+            </div>
+            <p>Prime beef tenderloin wrapped in duxelles and golden puff pastry, with truffle jus and glazed carrots.</p>
+            <div class="menu-tags"><span>⭐ Signature</span><span>🔥 Chef's special</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-in" data-cat="main">
+          <div class="menu-img main-2">
+            <span class="menu-tag">Main</span>
+          </div>
+          <div class="menu-body">
+            <div class="menu-top">
+              <h3>Pan-Seared Sea Bass</h3>
+              <span class="menu-price">$58</span>
+            </div>
+            <p>Wild-caught sea bass on saffron bouillabaisse, fennel confit, cherry tomatoes, and rouille crouton.</p>
+            <div class="menu-tags"><span>🐟 Seafood</span><span>🌿 Gluten-free option</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-in" data-cat="main">
+          <div class="menu-img main-3">
+            <span class="menu-tag">Main</span>
+          </div>
+          <div class="menu-body">
+            <div class="menu-top">
+              <h3>Truffle Risotto</h3>
+              <span class="menu-price">$46</span>
+            </div>
+            <p>Carnaroli rice with black Périgord truffle, aged Parmigiano-Reggiano, and chervil.</p>
+            <div class="menu-tags"><span>🌿 Vegetarian</span><span>🧀 Contains dairy</span></div>
+          </div>
+        </div>
+
+        <!-- Desserts -->
+        <div class="menu-card fade-in" data-cat="dessert">
+          <div class="menu-img dessert-1">
+            <span class="menu-tag">Dessert</span>
+          </div>
+          <div class="menu-body">
+            <div class="menu-top">
+              <h3>Crème Brûlée Grand Cru</h3>
+              <span class="menu-price">$18</span>
+            </div>
+            <p>Classic Tahitian vanilla crème brûlée with caramelised sugar crust and seasonal berry compote.</p>
+            <div class="menu-tags"><span>🌿 Vegetarian</span><span>⭐ House classic</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-in" data-cat="dessert">
+          <div class="menu-img dessert-2">
+            <span class="menu-tag">Dessert</span>
+          </div>
+          <div class="menu-body">
+            <div class="menu-top">
+              <h3>Chocolate Fondant</h3>
+              <span class="menu-price">$22</span>
+            </div>
+            <p>Valrhona 70% dark chocolate fondant, molten centre, salted caramel ice cream, and praline tuile.</p>
+            <div class="menu-tags"><span>🍫 Contains nuts</span><span>🔥 Made to order</span></div>
+          </div>
+        </div>
+
+        <!-- Drinks -->
+        <div class="menu-card fade-in" data-cat="drink">
+          <div class="menu-img drink-1">
+            <span class="menu-tag">Drink</span>
+          </div>
+          <div class="menu-body">
+            <div class="menu-top">
+              <h3>Château Margaux 2018</h3>
+              <span class="menu-price">$220</span>
+            </div>
+            <p>Premier Grand Cru Classé. Rich cassis, violet, cedar, and silky tannins. Bordeaux, France.</p>
+            <div class="menu-tags"><span>🍷 Red Wine</span><span>🏆 Sommelier's choice</span></div>
+          </div>
+        </div>
+
+        <div class="menu-card fade-in" data-cat="drink">
+          <div class="menu-img drink-2">
+            <span class="menu-tag">Drink</span>
+          </div>
+          <div class="menu-body">
+            <div class="menu-top">
+              <h3>Laurent Signature Cocktail</h3>
+              <span class="menu-price">$24</span>
+            </div>
+            <p>Aged cognac, elderflower liqueur, lemon verbena, champagne float, and edible gold leaf.</p>
+            <div class="menu-tags"><span>🍸 Signature</span><span>✨ House creation</span></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="menu-footer fade-in">
+        <p>Full menu available upon seating. Tasting menu (7 courses) available for the whole table — $185 per person.</p>
+        <a href="#reserve" class="btn btn-gold">Reserve &amp; Pre-Order</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── GALLERY ── -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <p class="section-eyebrow center fade-in">Visual Journey</p>
+      <h2 class="section-title fade-in">A Feast for <em>the Eyes</em></h2>
+      <div class="gallery-grid fade-in">
+        <div class="gal-item gal-large"><div class="gal-img gal-1"></div><div class="gal-overlay"><span>Beef Wellington</span></div></div>
+        <div class="gal-item"><div class="gal-img gal-2"></div><div class="gal-overlay"><span>The Grand Dining Room</span></div></div>
+        <div class="gal-item"><div class="gal-img gal-3"></div><div class="gal-overlay"><span>Dessert Artistry</span></div></div>
+        <div class="gal-item"><div class="gal-img gal-4"></div><div class="gal-overlay"><span>Open Kitchen</span></div></div>
+        <div class="gal-item gal-wide"><div class="gal-img gal-5"></div><div class="gal-overlay"><span>Private Dining Experience</span></div></div>
+        <div class="gal-item"><div class="gal-img gal-6"></div><div class="gal-overlay"><span>Wine Cellar</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EVENTS ── -->
+  <section id="events" class="section section-cream">
+    <div class="container">
+      <p class="section-eyebrow center fade-in">Upcoming</p>
+      <h2 class="section-title fade-in">Special <em>Events</em></h2>
+      <div class="events-grid">
+
+        <div class="event-card fade-in">
+          <div class="event-date"><span class="ed-day">14</span><span class="ed-mon">FEB</span></div>
+          <div class="event-body">
+            <span class="event-badge">Valentine's Day</span>
+            <h3>An Evening of Romance</h3>
+            <p>A bespoke 7-course tasting menu for two, with Champagne welcome, live pianist, and a rose for every guest. Last tables remaining.</p>
+            <div class="event-meta">
+              <span>🕕 18:00 – 23:00</span>
+              <span>💰 $285 per person</span>
+            </div>
+            <a href="#reserve" class="btn btn-gold btn-sm">Book Now</a>
+          </div>
+        </div>
+
+        <div class="event-card fade-in">
+          <div class="event-date"><span class="ed-day">22</span><span class="ed-mon">MAR</span></div>
+          <div class="event-body">
+            <span class="event-badge">Wine & Dine</span>
+            <h3>Spring Wine Pairing Dinner</h3>
+            <p>Our sommelier leads guests through a curated pairing of six wines alongside a seasonal 6-course menu celebrating spring produce.</p>
+            <div class="event-meta">
+              <span>🕕 19:00 – 22:30</span>
+              <span>💰 $195 per person</span>
+            </div>
+            <a href="#reserve" class="btn btn-gold btn-sm">Book Now</a>
+          </div>
+        </div>
+
+        <div class="event-card fade-in">
+          <div class="event-date"><span class="ed-day">05</span><span class="ed-mon">APR</span></div>
+          <div class="event-body">
+            <span class="event-badge">Masterclass</span>
+            <h3>Chef's Table Cooking Class</h3>
+            <p>Join Chef Laurent in our private kitchen for a hands-on cooking masterclass. Learn to create three signature dishes and enjoy them together at the Chef's Table.</p>
+            <div class="event-meta">
+              <span>🕑 14:00 – 18:00</span>
+              <span>💰 $165 per person</span>
+            </div>
+            <a href="#reserve" class="btn btn-gold btn-sm">Book Now</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── REVIEWS ── -->
+  <section id="reviews" class="section section-dark">
+    <div class="container">
+      <p class="section-eyebrow center fade-in">Guest Experiences</p>
+      <h2 class="section-title fade-in">What Our Guests <em>Say</em></h2>
+      <div class="reviews-grid">
+
+        <div class="review-card fade-in">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"An unforgettable evening from start to finish. The Beef Wellington was the finest I have ever tasted — perfectly pink, with a pastry so delicate it shattered like glass. The service matched the food in every way."</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background:linear-gradient(135deg,#c9a84c,#7c5c1e)">SC</div>
+            <div>
+              <strong>Sophie Carlisle</strong>
+              <span>Paris · Dined March 2024</span>
+            </div>
+            <div class="review-source">Google ⭐ 5/5</div>
+          </div>
+        </div>
+
+        <div class="review-card fade-in">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"We celebrated our 25th anniversary here and were absolutely blown away. The tasting menu is a journey — each course told a story. Chef Laurent came to our table personally. A memory we will cherish forever."</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background:linear-gradient(135deg,#1b365d,#0ea5e9)">RM</div>
+            <div>
+              <strong>Robert &amp; Marie Chen</strong>
+              <span>New York · Dined February 2024</span>
+            </div>
+            <div class="review-source">TripAdvisor ⭐ 5/5</div>
+          </div>
+        </div>
+
+        <div class="review-card fade-in">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"The lobster bisque alone is worth the flight to Paris. Everything was exquisite — the ambiance, the wine list, the pacing. Three Michelin Stars absolutely deserved. Already booked for next month."</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background:linear-gradient(135deg,#1c4a1c,#22c55e)">TN</div>
+            <div>
+              <strong>Thomas Nakamura</strong>
+              <span>Tokyo · Dined January 2024</span>
+            </div>
+            <div class="review-source">Yelp ⭐ 5/5</div>
+          </div>
+        </div>
+
+      </div>
+      <div class="reviews-summary fade-in">
+        <div class="rs-item"><span class="rs-num counter" data-target="4" data-suffix=".9">0</span><span class="rs-lbl">Average Rating</span></div>
+        <div class="rs-item"><span class="rs-num counter" data-target="2400" data-suffix="+" data-format="comma">0</span><span class="rs-lbl">Reviews</span></div>
+        <div class="rs-item"><span class="rs-num counter" data-target="98" data-suffix="%">0</span><span class="rs-lbl">Would Return</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── RESERVATION ── -->
+  <section id="reserve" class="section section-cream">
+    <div class="container">
+      <p class="section-eyebrow center fade-in">Secure Your Seat</p>
+      <h2 class="section-title fade-in">Reserve a <em>Table</em></h2>
+      <p class="section-desc fade-in">Reservations are strongly recommended. We hold tables for a maximum of 15 minutes after your booking time.</p>
+      <div class="reserve-grid">
+        <form class="reserve-form fade-in" id="reserveForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name *</label>
+              <input type="text" placeholder="Jean" required />
+            </div>
+            <div class="form-group">
+              <label>Last Name *</label>
+              <input type="text" placeholder="Dupont" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Email *</label>
+              <input type="email" placeholder="j.dupont@email.com" required />
+            </div>
+            <div class="form-group">
+              <label>Phone *</label>
+              <input type="tel" placeholder="+1 (212) 000-0000" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Date *</label>
+              <input type="date" id="resDate" required />
+            </div>
+            <div class="form-group">
+              <label>Time *</label>
+              <select required>
+                <option value="" disabled selected>Select time</option>
+                <optgroup label="Lunch Service">
+                  <option>12:00 PM</option>
+                  <option>12:30 PM</option>
+                  <option>13:00 PM</option>
+                  <option>13:30 PM</option>
+                  <option>14:00 PM</option>
+                </optgroup>
+                <optgroup label="Dinner Service">
+                  <option>18:00 PM</option>
+                  <option>18:30 PM</option>
+                  <option>19:00 PM</option>
+                  <option>19:30 PM</option>
+                  <option>20:00 PM</option>
+                  <option>20:30 PM</option>
+                  <option>21:00 PM</option>
+                </optgroup>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Number of Guests *</label>
+              <select required>
+                <option value="" disabled selected>Guests</option>
+                <option>1 guest</option>
+                <option>2 guests</option>
+                <option>3 guests</option>
+                <option>4 guests</option>
+                <option>5 guests</option>
+                <option>6 guests</option>
+                <option>7–10 guests (private dining)</option>
+                <option>10+ guests (contact us)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Occasion</label>
+              <select>
+                <option value="" disabled selected>Select occasion</option>
+                <option>Birthday</option>
+                <option>Anniversary</option>
+                <option>Business Dinner</option>
+                <option>Proposal</option>
+                <option>Date Night</option>
+                <option>Family Celebration</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Special Requests or Dietary Requirements</label>
+            <textarea rows="3" placeholder="Allergies, dietary needs, high chair, accessibility requirements…"></textarea>
+          </div>
+          <div class="form-group form-check">
+            <label class="check-label">
+              <input type="checkbox" />
+              <span>I would like to receive news and special offers from Maison Laurent</span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn-gold btn-full">Confirm Reservation</button>
+          <p class="form-note">Reservation confirmed by email within 2 hours. Cancellations accepted up to 24 hours in advance.</p>
+          <div class="form-success" id="resSuccess">
+            ✅ Your table is reserved! A confirmation has been sent to your email.
+          </div>
+        </form>
+
+        <div class="reserve-info fade-in">
+          <div class="ri-card">
+            <h3>Opening Hours</h3>
+            <div class="hours-list">
+              <div class="hour-row"><span>Monday</span><span class="closed">Closed</span></div>
+              <div class="hour-row"><span>Tuesday – Friday</span><span>12:00 – 14:30<br/>18:00 – 23:00</span></div>
+              <div class="hour-row"><span>Saturday</span><span>18:00 – 23:30</span></div>
+              <div class="hour-row"><span>Sunday</span><span>12:00 – 16:00<br/><em>Brunch only</em></span></div>
+            </div>
+          </div>
+          <div class="ri-card">
+            <h3>Find Us</h3>
+            <div class="map-placeholder">
+              <svg viewBox="0 0 320 200" fill="none"><rect width="320" height="200" fill="#f0ede8"/><rect x="60" y="40" width="200" height="120" rx="4" fill="#e8e0d8"/><circle cx="160" cy="100" r="20" fill="#c9a84c"/><path d="M160 80 L160 62 M160 118 L160 136 M140 100 L122 100 M178 100 L196 100" stroke="#c9a84c" stroke-width="2"/><text x="160" y="104" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">ML</text><text x="160" y="170" text-anchor="middle" fill="#8b7355" font-size="10">24 Rue de la Paix, Paris</text></svg>
+            </div>
+            <p class="address">24 Rue de la Paix<br/>75002 Paris, France</p>
+            <a href="#" class="btn btn-outline-dark btn-sm" style="margin-top:.75rem">Get Directions</a>
+          </div>
+          <div class="ri-card contact-card">
+            <h3>Contact Us</h3>
+            <p>📞 <a href="tel:+12125550174">+52 81 3118 5052</a></p>
+            <p>✉️ <a href="mailto:yanbingfanyi@gmail.com">yanbingfanyi@gmail.com</a></p>
+            <p>For private events &amp; buyouts:<br/>✉️ <a href="mailto:yanbingfanyi@gmail.com">yanbingfanyi@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-script">Maison</span>
+            <span class="logo-serif">LAURENT</span>
+          </div>
+          <p>Three-Michelin-starred French cuisine in the heart of Paris, New York, and Tokyo. Crafting unforgettable memories since 1987.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="Facebook">👥</a>
+            <a href="#" aria-label="Twitter">🐦</a>
+            <a href="#" aria-label="TripAdvisor">🏆</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Explore</h5>
+          <ul>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Visit Us</h5>
+          <ul>
+            <li><a href="#">Paris</a></li>
+            <li><a href="#">New York</a></li>
+            <li><a href="#">Tokyo</a></li>
+            <li><a href="#">Directions</a></li>
+            <li><a href="#">Parking</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="#reserve">Reserve a Table</a></li>
+            <li><a href="#events">Private Dining</a></li>
+            <li><a href="#events">Cooking Classes</a></li>
+            <li><a href="#">Gift Vouchers</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>© 2024 Maison Laurent. All rights reserved. &nbsp;·&nbsp; Demo site designed &amp; built by <strong style="color:#c9a84c">George Wang</strong> · <a href="mailto:yanbingfanyi@gmail.com" style="color:#c9a84c">yanbingfanyi@gmail.com</a></span>
+        <div>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms</a>
+          <a href="#">Allergen Info</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
