@@ -337,6 +337,23 @@ em { font-family: 'Playfair Display', serif; font-style: italic; }
 .contact-card p { font-size: .85rem; color: var(--body); margin-bottom: .5rem; }
 .contact-card a { color: var(--gold); }
 
+/* ── Careers / Join Us ── */
+.careers-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 1.5rem; margin-bottom: 2.5rem; }
+.career-card { background: var(--cream-d); border: 1px solid var(--border); border-radius: var(--radius); padding: 2rem; }
+.career-card-head { display: flex; align-items: center; gap: .9rem; margin-bottom: 1rem; }
+.career-icon {
+  flex-shrink: 0; width: 52px; height: 52px; border-radius: var(--radius);
+  background: rgba(201,168,76,.14); color: var(--gold-d);
+  display: flex; align-items: center; justify-content: center; font-size: 1.6rem;
+}
+.career-card h3 { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; color: var(--dark); }
+.career-card-desc { font-size: .85rem; color: var(--muted); margin-bottom: 1.25rem; line-height: 1.6; }
+.career-points { list-style: none; display: flex; flex-direction: column; gap: .75rem; }
+.career-points li { font-size: .85rem; color: var(--body); line-height: 1.6; padding-left: 1.4rem; position: relative; }
+.career-points li::before { content: "✓"; position: absolute; left: 0; color: var(--gold-d); font-weight: 700; }
+.careers-cta { text-align: center; }
+.careers-cta p { color: var(--muted); font-size: .92rem; margin-bottom: 1.25rem; }
+
 /* ── Footer ── */
 footer .footer-top { background: var(--dark); padding: 5rem 0 3rem; }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; }
@@ -392,6 +409,7 @@ footer .footer-bottom { background: #111; padding: 1.1rem 0; }
   .events-grid   { grid-template-columns: 1fr; }
   .reviews-grid  { grid-template-columns: 1fr; }
   .reserve-grid  { grid-template-columns: 1fr; }
+  .careers-grid  { grid-template-columns: 1fr; }
   .gallery-grid  { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
   .gal-large, .gal-wide { grid-column: span 1; }
 }
